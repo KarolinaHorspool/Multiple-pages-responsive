@@ -92,23 +92,22 @@
       .introduction {
         text-align: center;
         font-size: 32px;
-        color: blue;
       }
   }
 
   @media(max-width: 576px) {
     .my-name {
         text-align: center;
-        font-size: 32px;
-        color: blue;
+        font-size: 40px;
+        color: rgb(75, 75, 170);
       }
     }
   
     @media(max-width: 576px) {
         .about {
             text-align: center;
-            font-size: 32px;
-            color: blue;
+            font-size: 40px;
+            color: rgb(75, 75, 170);
           }
         }
   
