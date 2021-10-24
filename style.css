@@ -110,4 +110,10 @@
             color: rgb(75, 75, 170);
           }
         }
-  
+
+    @media(max-width: 576px) {
+            .contact{
+                font-size: 30px;
+                color: rgb(75, 75, 170);
+              }
+            }
