@@ -12,6 +12,7 @@
   h2,
   h3 {
     margin: 0;
+    text-align: center;
   }
   
   h1 {
@@ -86,4 +87,28 @@
   .email-link:hover {
     text-decoration: underline;
   }
+
+  @media(max-width: 576px) {
+      .introduction {
+        text-align: center;
+        font-size: 32px;
+        color: blue;
+      }
+  }
+
+  @media(max-width: 576px) {
+    .my-name {
+        text-align: center;
+        font-size: 32px;
+        color: blue;
+      }
+    }
+  
+    @media(max-width: 576px) {
+        .about {
+            text-align: center;
+            font-size: 32px;
+            color: blue;
+          }
+        }
   
