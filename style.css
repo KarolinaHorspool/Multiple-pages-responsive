@@ -6,6 +6,7 @@
   
   body {
     margin-top: 100px;
+    background-image: url("https://image.freepik.com/free-vector/black-white-background-vector-with-wax-melted-crayon-art_53876-125686.jpg");
   }
   
   h1,
@@ -32,8 +33,12 @@
     font-size: 18px;
     line-height: 1.5;
   }
+
+  .container {
+    background-color: white;
+  }
   
-  .navigation-links {
+   .navigation-links {
     display: flex;
     margin-top: 40px;
     justify-content: center;
