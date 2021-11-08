@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --primary-color: #f3f4f8; 
+    --secondary-color: #000000;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
   }
   
   body {
@@ -34,7 +34,7 @@
     line-height: 1.5;
   }
 
-  .container {
+  .main {
     background-color: white;
   }
   
@@ -53,18 +53,30 @@
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
+    font-weight: bold;
+    background: hsla(0, 0%, 100%, 1);
+
+background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 0%, 1) 48%);
+
+background: -moz-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 0%, 1) 48%);
+
+background: -webkit-linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 0%, 1) 48%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#000000", GradientType=1 );
     color: white;
   }
   
   .secondary-link {
+    border: 3px groove #867c71;
+    background: linear-gradient(#726c6e, #aaadb4);
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
+    font-weight: bold;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+    transition: all 300ms ease;
   }
   
   .homepage-link {
@@ -104,21 +116,18 @@
     .my-name {
         text-align: center;
         font-size: 40px;
-        color: rgb(75, 75, 170);
-      }
+              }
     }
   
     @media(max-width: 576px) {
         .about {
             text-align: center;
             font-size: 40px;
-            color: rgb(75, 75, 170);
           }
         }
 
     @media(max-width: 576px) {
             .contact{
                 font-size: 30px;
-                color: rgb(75, 75, 170);
-              }
+                           }
             }
