@@ -96,7 +96,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", en
   .email-link {
     display: flex;
     justify-content: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 28px;
     text-decoration: none;
   }
