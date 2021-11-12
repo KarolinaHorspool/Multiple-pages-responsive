@@ -6,6 +6,10 @@
   
   body {
     margin-top: 100px;
+    }
+
+  .spots {
+    margin-top: 100px;
     background-image: url("https://image.freepik.com/free-vector/black-white-background-vector-with-wax-melted-crayon-art_53876-125686.jpg");
   }
   
@@ -69,7 +73,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", en
   .plain {
     background-color: white;
   }
-  
+
   .secondary-link {
     border: 3px groove #867c71;
     background: linear-gradient(#726c6e, #aaadb4);
