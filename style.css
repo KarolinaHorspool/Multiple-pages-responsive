@@ -66,6 +66,10 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", en
     color: white;
   }
   
+  .plain {
+    background-color: white;
+  }
+  
   .secondary-link {
     border: 3px groove #867c71;
     background: linear-gradient(#726c6e, #aaadb4);
