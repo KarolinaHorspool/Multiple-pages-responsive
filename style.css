@@ -38,6 +38,12 @@
     line-height: 1.5;
   }
 
+  .social {
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+
   .main {
     background-color: white;
   }
